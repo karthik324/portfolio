@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-nav{
+    font-size: 1.1rem;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.ico{
+    height: 20px ;
+    width: 20px;
+}
+.progress {
+    display: flex;
+    height: 2rem;
+    overflow: hidden;
+    font-size: 0.75rem;
+    background-color: #e9ecef;
+    border-radius: 1.25rem;
+    transition: all 0.5s ease;
+}
+.progress:hover{
+    transform: scale(1.1);
+    cursor: grab;
+}
+.card-img, .card-img-top{
+    object-fit: cover;
+    aspect-ratio: 1/.7;
+}
+.row > * {
+    padding-top: 10px;
+}
+.card{
+    transition: all 0.5s ease;
+
+
+}
+.card-img{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 2px 10px black;
+    cursor: pointer;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgba(255, 251, 0, 0.55);
+    transition: 0.2s;
+}
